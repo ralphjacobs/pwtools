@@ -1,4 +1,4 @@
-# Translations template for pwtools.
+# Dutch translations for pwtools.
 # Copyright (C) 2013 ORGANIZATION
 # This file is distributed under the same license as the pwtools project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2013.
@@ -6,15 +6,54 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pwtools 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2013-05-27 13:44+0200\n"
-"PO-Revision-Date: 2013-05-27 16:28+0100\n"
+"POT-Creation-Date: 2013-05-27 16:49+0200\n"
+"PO-Revision-Date: 2013-05-27 16:52+0100\n"
 "Last-Translator: Ralph Jacobs <ralph@fourdigits.nl>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: nl <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
 "X-Generator: Poedit 1.5.5\n"
 
+#: pwtools/pwcheck.py:9
 msgid "the same as the old one"
 msgstr "hetzelfde als de oude"
+
+#: pwtools/pwcheck.py:10
+#| msgid "the same as the old one"
+msgid "based on the old one"
+msgstr "gebaseerd op de oude"
+
+#: pwtools/pwcheck.py:11
+msgid "too short"
+msgstr "te kort"
+
+#: pwtools/pwcheck.py:12
+msgid "too long"
+msgstr "te lang"
+
+#: pwtools/pwcheck.py:13
+msgid ""
+"too simple for this length (not enough different kinds of characters, and "
+"too short)"
+msgstr ""
+"te simpel voor deze lengte (niet genoeg verschillende soort karakters en te "
+"kort)"
+
+#: pwtools/pwcheck.py:14
+msgid "too simple (not enough different kinds of characters)"
+msgstr "te simpel (niet genoeg verschillende soorten karakters)"
+
+#: pwtools/pwcheck.py:15
+msgid "based on personal information"
+msgstr "gebaseerd op persoonlijke informatie"
+
+#: pwtools/pwcheck.py:16
+msgid "based on a dictionary word"
+msgstr "gebaseerd op een woordenboek woord"
+
+#: pwtools/pwcheck.py:17
+msgid "based on a common sequence of characters"
+msgstr "gebaseerd op een bekende volgorde van karakters"

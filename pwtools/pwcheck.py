@@ -1,11 +1,13 @@
 import re
 import string
 from flufl.i18n import initialize
+import os
 _ = initialize('pwtools')
 
 
 class PasswordChecker:
     # Failure reasons
+    import pdb; pdb.set_trace()
     ReasonSame = _(u"the same as the old one")
     ReasonSimilar = _(u"based on the old one")
     ReasonShort = _(u"too short")
