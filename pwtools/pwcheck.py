@@ -1,7 +1,7 @@
 import re
 import string
-import gettext
-_ = gettext.translation("pwtools").ugettext
+from flufl.i18n import initialize
+_ = initialize('pwtools')
 
 
 class PasswordChecker:

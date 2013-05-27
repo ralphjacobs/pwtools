@@ -19,5 +19,14 @@ but is implemented in pure Python.
     'License :: OSI Approved :: MIT License',
     'Topic :: System',
     ],
+    message_extractors={'.': [
+      ('**.py', 'lingua_python', None),
+    ]},
+
+    install_requires = [
+        'flufl.i18n',
+        'lingua',
+        'Babel',
+    ],
     packages = find_packages()
 )
